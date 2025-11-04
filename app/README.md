@@ -26,3 +26,31 @@ A small application to manage children's rules and punishments using Next.js, Ta
 ```bash
 git clone <repo-url>
 cd kids-rules
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Set up the database:
+
+```bash
+npx prisma migrate dev
+```
+
+4. (Optional) Seed the database:
+
+```bash
+npx prisma db seed
+```
+
+5. Start the development server:
+
+```bash
+npm run dev
+````
+
+6. Open http://localhost:[PORT] in your browser.
+
